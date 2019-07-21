@@ -12,6 +12,14 @@ const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 
 const queue = new Map();
 
+const YouTube = require('simple-youtube-api');
+
+const youtube = new YouTube('AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8');
+
+const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
+
+const simpleytapi = require('simple-youtube-api')
+
 const ytdl = require('ytdl-core');
 
 const fs = require('fs');
